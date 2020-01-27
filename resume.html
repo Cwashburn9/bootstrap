@@ -27,10 +27,14 @@
       .sidenav {
         padding-top: 20px;
         background-color: #f1f1f1;
-        height: 100%;
+        height: auto;
 
       }
 
+      .jumbotron {
+        background-color: #e9ecef;
+        margin-bottom: 0rem;
+      }
 
 
       .row.content {
@@ -42,6 +46,7 @@
   </head>
 
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><img src="BackgroundBadge.png" width="30" height="30"
           class="d-inline-block align-top" alt="CKW logo"> Caitlin Washburn</a>
@@ -80,7 +85,7 @@
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Design Resume</h1>
+        <h1 class="display-4">Resume</h1>
         <p class="lead">
           <br>
           <a href="https://www.linkedin.com/in/caitlinwashburn" target="_blank" rel="noopener">LinkedIn</a>
@@ -95,51 +100,85 @@
 
     <div class="container-fluid">
       <div class="row content">
-        <div class="col-sm-3 sidenav">
-
-          <!-- br -->
-          <h2>Skills</h2>
+        <div class="col-xl-3 sidenav">
+          <!-- EDUCATION -->
           <div>
-            <div>
-              <h4>Digital</h4>
-              <ul>
-                <li>Solidworks</li>
-                <li>Adobe Indesign</li>
-                <li>Adobe Illustrator</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe XD</li>
-                <li>Google SketchUp</li>
-                <li>Microsoft Office</li>
-                <li>Sketchbook Pro</li>
-                <li>ProCreate</li>
-              </ul>
+            <h3>Education</h3>
+            <hr>
+            <ul>
+              <li><strong>Microtrain</strong>
+                <p class="text-secondary">Agile Full Stack Web and Hybrid Mobile Developement
+                  <br><em>(in progress)</em></p>
+              </li>
+              <li><strong>Milwaukee Institute of Art & Design</strong>
+                <p class="text-secondary">B.F.A. - Industrial Design,
+                  <br>Minor - Communication Design
+                  <br><em>(2012-2015)</em></p>
+              </li>
+              <li><strong>Adlai E. Stevenson High School</strong>
+                <p class="text-secondary"> <em>(2005-2009)</em></p>
+              </li>
+            </ul>
+          </div>
+          <br>
+          <br>
+          <!-- SKILLS -->
+          <div>
+            <h3>Skills</h3>
+            <hr>
+            <p>Adobe Creative Suites</p>
+            <p class="text-secondary"><small>Indesign</small></p>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div>
-              <h4>Physical</h4>
-              <ul>
-                <li>Automotive</li>
-                <li>Wood Working</li>
-                <li>Welding</li>
-                <li>Precious Metals</li>
-                <li>Foam Modeling</li>
-                <ul>
-                  <li>Urethane Foam</li>
-                  <li>Pink Foam</li>
-                  <li>REN</li>
-                </ul>
+            <br>
+            <p class="text-secondary"><small>Illustrator</small></p>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <br>
+            <p class="text-secondary"><small>Photoshop</small></p>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="60"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <br>
+            <p class="text-secondary"><small>Dreamweaver</small></p>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <br>
+            <p class="text-secondary"><small>XD</small></p>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <br>
+            <p>SolidWorks</p>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <!-- br -->
+          <br>
+          <!-- CERTIFICATIONS -->
+          <br>
           <div>
-            <h2>Certifications</h2>
+            <h3>Certifications</h3>
+            <hr>
             <ul>
               <li>Coursera - UX Design Fundamentals (Issued 12/2019) Credential ID - CFCVSJ4YHKEP</li>
               <li>Coursera - Visual Elements of User Interface Design (Issued 11/2019) Credential ID - AU3A38SLHERU
               </li>
             </ul>
           </div>
-
         </div>
+        <!-- br -->
+
+
         <!-- right column -->
         <div class="col-sm-9">
           <div>
