@@ -36,6 +36,12 @@
         margin-bottom: 0rem;
       }
 
+      .main {
+        padding-top: 20px;
+        padding-right: 20px;
+
+        height: auto;
+      }
 
       .row.content {
         height: auto;
@@ -47,7 +53,7 @@
 
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <a class="navbar-brand" href="#"><img src="BackgroundBadge.png" width="30" height="30"
           class="d-inline-block align-top" alt="CKW logo"> Caitlin Washburn</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -98,29 +104,30 @@
       </div>
     </div>
 
+
     <div class="container-fluid">
       <div class="row content">
+        <!-- side bar -->
         <div class="col-xl-3 sidenav">
           <!-- EDUCATION -->
           <div>
             <h3>Education</h3>
             <hr>
-            <ul>
+            <ul class="list-unstyled">
               <li><strong>Microtrain</strong>
-                <p class="text-secondary">Agile Full Stack Web and Hybrid Mobile Developement
-                  <br><em>(in progress)</em></p>
+                <p class="text-secondary"><small>Agile Full Stack Web and Hybrid Mobile Developement</small>
+                  <br><em><small>(in progress)</small></em></p>
               </li>
               <li><strong>Milwaukee Institute of Art & Design</strong>
-                <p class="text-secondary">B.F.A. - Industrial Design,
-                  <br>Minor - Communication Design
-                  <br><em>(2012-2015)</em></p>
+                <p class="text-secondary"><small>B.F.A. - Industrial Design,
+                    <br>Minor - Communication Design</small>
+                  <br><em><small>(2012-2015)</small></em></p>
               </li>
               <li><strong>Adlai E. Stevenson High School</strong>
-                <p class="text-secondary"> <em>(2005-2009)</em></p>
+                <p class="text-secondary"> <em><small>(2005-2009)</small></em></p>
               </li>
             </ul>
           </div>
-          <br>
           <br>
           <!-- SKILLS -->
           <div>
@@ -147,7 +154,7 @@
             <br>
             <p class="text-secondary"><small>Dreamweaver</small></p>
             <div class="progress">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20"
+              <div class="progress-bar bg-info" role="progressbar" style="width: 15%" aria-valuenow="15"
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <br>
@@ -163,26 +170,42 @@
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <br>
           <!-- CERTIFICATIONS -->
+          <br>
           <br>
           <div>
             <h3>Certifications</h3>
             <hr>
-            <ul>
-              <li>Coursera - UX Design Fundamentals (Issued 12/2019) Credential ID - CFCVSJ4YHKEP</li>
-              <li>Coursera - Visual Elements of User Interface Design (Issued 11/2019) Credential ID - AU3A38SLHERU
-              </li>
+            <ul class="list-unstyled">
+              <li><Strong><u>Microtrain</u></Strong></li>
+              <p>Certified ScrumMaster
+                <br><small class="text-muted">In progress</small></p>
+
+              <li><Strong><u>Coursera</u></Strong></li>
+              <p>Course 4
+                <br><small class="text-muted">In progress</small>
+                <br><em><small class="text-muted">Credential ID - n/a</small></em></p>
+
+              <p>Course 3
+                <br><small class="text-muted">In progress</small>
+                <br><em><small class="text-muted">Credential ID - n/a</small></em></p>
+
+              <p>UX Design Fundamentals
+                <br><small class="text-muted">(Issued 12/2019)</small>
+                <br><em><small class="text-muted">Credential ID - CFCVSJ4YHKEP</small></em></p>
+
+              <p>Visual Elements of UI Design
+                <br><small class="text-muted">(Issued 11/2019)</small>
+                <br><em><small class="text-muted">Credential ID - AU3A38SLHERU</small></em></p>
             </ul>
           </div>
         </div>
-        <!-- br -->
-
-
         <!-- right column -->
-        <div class="col-sm-9">
+        <div class="col-sm-9 main">
+          <!-- about me -->
           <div>
-            <h2>Industrial Designer</h2>
+            <h3>About Me</h3>
+            <hr>
             <p>I graduated Milwaukee Institute of Art & Design, Majoring in Industrial Design and Minoring in
               Communicaition Design. After graduating I worked for General Motors, as a contractor, for 3 years. After
               leaving General Motors, I moved back to Illinois to pursue other career opportunities. I am trying to
@@ -198,12 +221,14 @@
             </ul>
           </div>
           <br>
-          <hr>
+
+          <!-- prof. experience -->
           <div>
-            <h2>Professional Experience</h2>
-            <h3>Starbucks (2019-Current)</h3>
+            <h3>Professional Experience</h3>
+              <hr>
+            <h5>Starbucks (2019-Current)</h5>
             <p>Barista</p>
-            <h3>Populus Group LLC. (2015-2018)</h3>
+            <h5>Populus Group LLC. (2015-2018)</h5>
             <p>General Motors’ Global Architecture Studio. Contractor, Full-time.</p>
             <ul>
               <li>Communicated project plan with engineers and managers.</li>
@@ -223,7 +248,8 @@
           <br>
           <!-- collabs -->
           <div>
-            <h2>Collaborative Projects</h2>
+            <h3>Collaborative Projects</h3>
+            <hr>
             <p>While working on these collaborative projects between Milwaukee Institute of Art & Design’s industrial
               Design program and major companies in the industry. I was able to gain real work experience, while
               working
@@ -242,7 +268,8 @@
           <br>
           <!-- accomplishments -->
           <div>
-            <h2>Accomplishments</h2>
+            <h3>Accomplishments</h3>
+            <hr>
             <ul>
               <li>U.S. Design Patent, Patent No. US D802,846 S</li>
               <li>The Association of Rotational Molder's, 2014 Student Design Competition 2nd Place Award winner.</li>
@@ -250,12 +277,14 @@
                 Mention</li>
             </ul>
           </div>
+          <!-- comm. involvement -->
           <div>
-            <h2>Community Involvement</h2>
-            <h3>Highwood Chamber of Commerces</h3>
+            <h3>Community Involvement</h3>
+            <hr>
+            <h5>Highwood Chamber of Commerces</h5>
             <p>I volunteer to help out with multiple events that the Chamber hosts throughout the year. My
               responsibilities have included event registrations, setup, and tear down. </p>
-            <h3>Delta Delta Delta Sorority</h3>
+            <h5>Delta Delta Delta Sorority</h5>
             <p>Greek lettered organization, that participates in numerous philanthropic activities for fundraising and
               awareness campaigns for St Jude’s.</p>
           </div>
