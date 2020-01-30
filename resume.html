@@ -1,5 +1,6 @@
 <DOCTYPE html>
   <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,10 +22,16 @@
         background-size: 40%;
         background-position: center;
       }
-
+/* 
       .mypic {
-        padding-left: 20px;
+        padding-right: 10px;
 
+      } */
+
+      .mypic, .img {
+        padding-left: 30px;
+        padding-right: 40 px;
+        padding-top: 10px;
       }
 
       /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -37,6 +44,8 @@
         padding-top: 20px;
         background-color: #f1f1f1;
         height: auto;
+        width: 300px;
+        text-align: left;
 
       }
 
@@ -52,8 +61,19 @@
         height: auto;
       }
 
+
+
       .row.content {
         height: auto;
+      }
+
+      .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 210px;
+    text-align: left;
       }
     </style>
 
@@ -98,19 +118,23 @@
     <!-- jumbotron -->
 
     <div class="jumbotron jumbotron-fluid" style="background-color: #e3f2fd;">
-      <div class="container">
+      <div class="mypic"><img src="Me.jpg" class="rounded float-left" padding-left="20px" width="200" height="200"
+          alt="Caitlin Washburn">
+        <div class="container">
 
-        <h1 class="display-4">Resume</h1>
-        <p class="lead">
-          <br>
-          <a href="https://www.linkedin.com/in/caitlinwashburn" target="_blank" rel="noopener">LinkedIn</a>
-          &#x25CF;
-          <a href="https://www.behance.net/Caitlinkwa229f?tracking_source=search%7Ccaitlin%20washburn" target="_blank"
-            rel="noopener">Behance</a>
-          &#x25CF;
-          Highwood, IL
-        </p>
 
+          <h1 class="display-4">Resume</h1>
+
+          <p class="lead">
+            <br>
+            <a href="https://www.linkedin.com/in/caitlinwashburn" target="_blank" rel="noopener">LinkedIn</a>
+            &#x25CF;
+            <a href="https://www.behance.net/Caitlinkwa229f?tracking_source=search%7Ccaitlin%20washburn" target="_blank"
+              rel="noopener">Behance</a>
+            &#x25CF;
+            Highwood, IL
+          </p>
+        </div>
       </div>
     </div>
 
@@ -118,7 +142,7 @@
     <div class="container-fluid">
       <div class="row content">
         <!-- side bar -->
-        <div class="col-xl-3 sidenav">
+        <div class="sidenav">
           <!-- EDUCATION -->
           <div>
             <h3>Education</h3>
@@ -214,8 +238,8 @@
         <div class="col-sm-9 main">
           <!-- about me -->
           <div>
-            <div class="mypic"><img src="Me.jpg" class="rounded float-right" width="300" height="300"
-                alt="Caitlin Washburn"></div>
+            <!-- <div class="mypic"><img src="Me.jpg" class="rounded float-right" width="300" height="300"
+                alt="Caitlin Washburn"></div> -->
             <h3>About Me</h3>
             <hr>
             <p>I graduated Milwaukee Institute of Art & Design, Majoring in Industrial Design and Minoring in
@@ -304,9 +328,15 @@
       </div>
     </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
   </body>
 
   </html>
